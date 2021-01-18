@@ -15,7 +15,7 @@ y=fibo(x1)
 print("The fibo number is: ",y)
 
 if y==0 or y==1:
-    print("The fibonacci number of",x1,"is not prime.")
+    print("The fibonacci  of",x1,"is not prime.")
 else:
   s=0
   for i in range(20):
@@ -23,6 +23,6 @@ else:
      if pow(a,y,y)==a:
        s+=1
   if s==20:
-     print("The fibonacci number of ",x1," is prime!")
+     print("The fibonacci  of ",x1," is prime!")
   else:
-     print("The fibonacci number of ",x1," is not prime!")
+     print("The fibonacci  of ",x1," is not prime!")
