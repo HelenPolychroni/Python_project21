@@ -1,7 +1,8 @@
 import math
 a=input("Hellooo,give me a(n) (ascii) file: ")
-with open(a) as f:
-  data =f.read()
+f = open(a, "r")
+data =f.read()
+f.close()
 print("\nYour file inside looks like this:\n\n",data)
 data1= ' '.join(str(ord(c))for c in data)
 #print("\ndata1 is:\n",data1)
